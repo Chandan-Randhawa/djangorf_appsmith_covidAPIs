@@ -12,10 +12,11 @@ urlpatterns = [
     path('redundant_lab_id', views.redundant_lab_id , name = 'redundant_lab_id'),
 
 
-
     path('redundant', views.redundant_ids , name = 'redundantids'),
     path('mapss', views.mapss , name = 'mapss'),
     path('mapss_html', views.mapss_html , name = 'mapss_html'),
+    path('slogans', views.slogans , name = 'slogans'),
+
 
 
 
