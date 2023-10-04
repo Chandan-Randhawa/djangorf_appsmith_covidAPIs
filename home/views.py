@@ -10,7 +10,6 @@ import plotly.express as px
 import random
 from django.http import FileResponse
 
-
 # Create your views here.
 
 @api_view(['GET', 'POST'])
